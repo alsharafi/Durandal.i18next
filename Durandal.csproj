@@ -110,6 +110,8 @@
     <Content Include="App\samples\knockout\simpleList\index.js" />
     <Content Include="App\samples\knockout\twitterClient\index.html" />
     <Content Include="App\samples\knockout\twitterClient\index.js" />
+    <Content Include="App\samples\localization\index.html" />
+    <Content Include="App\samples\localization\index.js" />
     <Content Include="Content\twitterExample.css" />
     <Content Include="App\samples\modal\customModal.html" />
     <Content Include="App\samples\modal\customModal.js" />
@@ -177,7 +179,12 @@
     <Content Include="Content\font\fontawesome-webfont.ttf" />
     <Content Include="Content\font\fontawesome-webfont.eot" />
     <Content Include="Content\font\FontAwesome.otf" />
+    <Content Include="locales\dev\app.json" />
+    <Content Include="locales\en-US\app.json" />
+    <Content Include="locales\en\app.json" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Scripts\i18next-1.6.0.js" />
+    <Content Include="Scripts\i18next-1.6.0.min.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
     <Content Include="Scripts\knockout-2.2.1.debug.js" />

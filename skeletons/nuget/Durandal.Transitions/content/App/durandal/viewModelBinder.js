@@ -52,6 +52,7 @@
                     obj.beforeBind(view);
                 }
 
+                $(view).i18n();
                 ko.applyBindings(bindingContext, view);
                 
                 if (obj && obj.afterBind) {
@@ -65,6 +66,7 @@
                     obj.beforeBind(view);
                 }
                 
+                $(view).i18n();
                 ko.applyBindings(obj, view);
                 
                 if (obj.afterBind) {

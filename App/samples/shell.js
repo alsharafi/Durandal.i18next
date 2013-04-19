@@ -11,7 +11,9 @@
                 { url: 'widgets', moduleId: 'samples/widgets/index', name: 'Widgets', visible: true },
                 { url: 'master-detail', moduleId: 'samples/masterDetail/index', name: 'Master Detail', visible: true },
                 { url: 'knockout-samples/:name', moduleId: 'samples/knockout/index', name: 'Knockout Samples' },
-                { url: 'knockout-samples', moduleId: 'samples/knockout/index', name: 'Knockout Samples', visible: true }
+                { url: 'knockout-samples', moduleId: 'samples/knockout/index', name: 'Knockout Samples', visible: true },
+                { url: 'localization', moduleId: 'samples/localization/index', name: 'i18next Samples', visible: true },
+
             ]);
             
             return router.activate('hello');
